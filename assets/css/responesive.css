@@ -1,0 +1,38 @@
+@media (max-width: 740px) {
+  #nav li {
+    float: none;
+  }
+
+  #search-box,
+  #nav li:last-child,
+  .slider-slogan {
+    display: none;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+  #menu-bar {
+    position: absolute;
+    top: 0;
+    color: white;
+    right: 0;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 24px;
+  }
+
+  #nav li:nth-child(5) {
+    display: list-item;
+  }
+
+  #nav li:first-child {
+    display: inline-block;
+  }
+
+  .col-2,
+  .col-3 {
+    width: auto;
+    float: none;
+  }
+}

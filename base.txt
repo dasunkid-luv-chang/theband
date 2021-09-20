@@ -1,0 +1,61 @@
+1. header
+ - width: 100%
+ - height: 46px
+ - color: black
+ - box-shadow
+ - position: fixed
+
+1.1 navigation
+ - ul -> (li > a) * 5
+ - color: white
+ - bgc: #000
+ - hover: 
+    + color: #000
+    + bgc: #ccc
+    
+1.2 search-box
+ - color: #fff
+ - hover: 
+    + bgc: red
+    + cursor: pointer
+
+
+2. slider
+ - position: relative
+ - height = 50% width
+
+2.1
+ - text-heading
+=> h2, color: white, center
+ - text-description
+=> p, color: white, center
+
+
+3. content
+ - about team:
+    + heading
+    + sub-heading
+    + description
+    + team-member
+        + member-item
+ 
+ - tour-date:
+    + heading
+    + sub-heading
+    + sale-date
+    + place-list
+        + place-item
+            * place-img
+            * place-item-container
+    
+ - contact:
+    + heading
+    + sub-heading
+    + contact-container
+        * contact-info
+        * contact-form
+ - I
+        
+4. footer
+
+chưa có form-top

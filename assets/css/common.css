@@ -1,0 +1,118 @@
+/*? RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* padding */
+.padding-tb-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.padding-lr-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.padding-lr-8 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* margin */
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sub-heading {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/* text */
+.text-white {
+    color: #fff;
+}
+
+.text-black {
+    color: #000;
+}
+
+.text-gray {
+    color: #ccc;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+
+/* background */
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+.button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.col {
+    padding: 0 8px;
+}
+.col-2 {
+    width: 50%;
+    float: left;
+}
+
+.col-3 {
+    width: 33.33333%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.w100 {
+    width: 100%;
+}
+
+
