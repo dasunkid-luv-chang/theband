@@ -72,6 +72,9 @@
   background-color: #f44336;
 }
 
+#menu-bar {
+  display: none;
+}
 
 #slider {
     margin-top: 46px;

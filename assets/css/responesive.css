@@ -13,6 +13,7 @@
     overflow: hidden;
   }
   #menu-bar {
+    display: block;
     position: absolute;
     top: 0;
     color: white;
