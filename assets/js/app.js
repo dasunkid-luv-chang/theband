@@ -10,9 +10,10 @@ let header = $('#header');
 console.log(header.clientHeight);
 
 $('#menu-bar').onclick = function() {
+    //? check header có đang mở không
     if(header.clientHeight == 46){
-        header.style.cssText = 'overflow: visible; height: auto';
+        header.style.height = 'auto';
     }
     else
-        header.style.cssText = 'overflow:hidden; height: 46px';
+        header.style.height = '46px';
 }
